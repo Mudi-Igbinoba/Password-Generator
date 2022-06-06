@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Password Generator</h1>
+        </header>
+
+        <main>
+            <div class="top">
+                <h2>Generate a <span>random password</span></h2>
+                <p>Never use an insecure password again.</p>
+                <form action="">
+                    <label for="length">Set password length</label>
+                    <input
+                        oninput="getLength()"
+                        id="length"
+                        type="number"
+                        value="8"
+                        min="8"
+                        max="20"
+                    /><br />
+                    <p id="error">Choose a number between 8 - 20</p>
+                    <button
+                        type="submit"
+                        id="generate-btn"
+                        onclick="event.preventDefault(); generatePassword()"
+                    >
+                        <img src="icons/Icon.svg" alt="" id="bolt" />
+                        <span>Generate passwords</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="bottom">
+                <p>click on password to copy</p>
+                <div class="flex">
+                    <div>
+                        <span>Copied to clipboard</span>
+                        <input
+                            id="password1"
+                            value="..."
+                            onclick="copyPassword(event);"
+                            readonly
+                        />
+                    </div>
+                    <div>
+                        <span>Copied to clipboard</span>
+                        <input
+                            id="password2"
+                            value="..."
+                            onclick="copyPassword(event)"
+                            readonly
+                        />
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div>
+                        <span>Copied to clipboard</span>
+                        <input
+                            id="password3"
+                            value="..."
+                            onclick="copyPassword(event)"
+                            readonly
+                        />
+                    </div>
+
+                    <div>
+                        <span>Copied to clipboard</span>
+                        <input
+                            id="password4"
+                            value="..."
+                            onclick="copyPassword(event)"
+                            readonly
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Mudi - All rights reserved</p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
