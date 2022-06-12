@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Mudi-Igbinoba/Unit-Converter](https://github.com/Mudi-Igbinoba/Password-Generator)
-- Live Site URL: [https://mudi-igbinoba.github.io/Unit-Converter/](https://mudi-igbinoba.github.io/Password-Generator/)
+- Solution URL: [https://github.com/Mudi-Igbinoba/Password-Generator](https://github.com/Mudi-Igbinoba/Password-Generator)
+- Live Site URL: [https://mudi-igbinoba.github.io/Password-Generator/](https://mudi-igbinoba.github.io/Password-Generator/)
 
 ## My process
 
