@@ -29,8 +29,8 @@ Users should be able to:
 -   Toggle on/off symbols and numbers present in password
 
 ### Screenshot
+![download](https://user-images.githubusercontent.com/65790714/174563348-c5a8b6f8-93ab-49bf-b9d2-357663ee353c.jpg)
 
-![download](https://user-images.githubusercontent.com/65790714/172214993-8fcea1a6-88c0-4bf2-a982-f0adb0e394da.jpg)
 
 ### Links
 
