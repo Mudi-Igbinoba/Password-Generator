@@ -34,10 +34,15 @@
                         max="20"
                     /><br />
                     <p id="error">Choose a number between 8 - 20</p>
+                    <br />
+                    <label for="symbol">Remove symbols(Tick if yes)</label>
+                    <input id="symbol" type="checkbox" /><br /><br />
+                    <label for="number">Remove number(Tick if yes)</label>
+                    <input id="number" type="checkbox" /><br />
                     <button
                         type="submit"
                         id="generate-btn"
-                        onclick="event.preventDefault(); generatePassword()"
+                        onclick="generatePassword()"
                     >
                         <img src="icons/Icon.svg" alt="" id="bolt" />
                         <span>Generate passwords</span>
